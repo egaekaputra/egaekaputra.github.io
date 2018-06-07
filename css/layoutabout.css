@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+h2{
+	font-family:'Playfair Display', serif;
+	font-size:20px;
+	}
+.display{
+	width:900px;
+	height:400px;
+	padding:180px 0px 80px 0px;
+	margin:0px auto 40px;
+	}
+.isi_about{
+	width:900px;
+	height:480px;
+	margin:80px auto 80px;
+	padding-bottom:80px;	
+	}
+.isi_kiri{
+	width:420px;
+	height:inherit;
+	float:left;
+	}
+.gb_kiri{
+	width:400px;
+	height:inherit;
+	float:right;
+	}
+.isi_kanan{
+	width:420px;
+	height:inherit;
+	float:right;
+	}
+.gb_kanan{
+	width:400px;
+	height:inherit;
+	float:left;
+	}
+.owner{
+	width:220px;
+	height:300px;
+	float:left;
+	margin:40px;
+	text-align:center;
+	font-size:24px;
+	font-weight:bold; 
+	}
+.slider_menu{
+	width:900px;
+	height:350px;
+	
+	}
+.icon{
+	width:i85px;
+	height:300px;	
+	float:left;
+	margin:0px 20px 0px 20px;
+	text-align:center;
+	
+	}
+.gbr_icon{
+	width:i85px;
+	height:185px;	
+	}
+#maps{
+	width:900px;
+	height:370px;
+	background:#999;
+	}
+	

@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-image:url(../images/contentbg.png); margin:0px;}
+h2{
+	font-family:'Playfair Display', serif;
+	font-size:20px;
+	}
+hr{
+	
+	border-style:solid;
+	}
+header{
+	width:100%;
+	height:100px;	
+	position:inherit;
+	background:#FFF;
+	position:fixed;	
+	z-index:20;
+	margin:0px auto;
+	}
+#header_container{
+	width:960px;
+	height:100px;
+	margin: 0px auto;
+	}
+#logo{
+	float:left;
+	margin:0px 80px 0px 0px; 
+	}
+nav{
+	width:450px;
+	height:inherit;
+	margin:0px auto;	
+	float:left;
+	}
+nav ul {	
+	list-style:none;
+	padding:0px;
+	font-family: 'Lato', sans-serif;
+	}
+nav ul li{	
+	border:thick;
+	width:80px;
+	height:50px;
+	float:left;
+	margin:25px 5px 25px 5px;	
+	text-align:center;
+	line-height:20px;
+	font-size:16px;
+	line-height:50px;
+	color:#8d4f18;
+	}
+nav ul li:hover{
+	background:#8d4f18;
+	color:#FFF;
+	}
+#medsos{	
+	width:255px;
+	height:inherit;
+	float:right;	
+	}
+#medsos img{
+	float:right;
+	margin:35px 0px 0px 10px;
+	}
+#container{
+	width:960px;
+	min-height:350px;	
+	margin:0px  auto;
+	}
+#content{
+	width:100%;
+	min-height:350px;	
+	}
+hr{
+	color:#000;
+	}
+.slider{
+	width:900px;
+	height:400px;	
+	margin:180px px auto 80px;
+	
+	}
+#jarakslide{
+	width:100%;
+	height:180px;
+	}
+.isi_content{
+	width:900px;
+	height:370px;	
+	margin:80px auto;		
+	padding-bottom:80px;
+	padding-top:40px;
+	}
+.tulisan_kiri{
+	width:600px;
+	height:inherit;
+	float:left;
+	position:relative;
+	line-height:20px;
+	}
+.gbr_kiri{
+	width:250px;
+	height:inherit;
+	float:right;
+		
+	}
+.tulisan_kanan{
+	width:600px;
+	height:inherit;
+	float:right;
+	position:relative;
+	line-height:20px;
+	}
+.gbr_kanan{
+	width:250px;
+	height:inherit;
+	float:left;	
+	}
+.seemore{
+	width:110px;
+	height:50px;
+	background:#603913;
+	color:#FFF;
+	font-size:18px;
+	text-align:center;
+	line-height:50px;
+	margin-bottom:0px;
+	position:absolute;
+	bottom:90px;
+	}
+.maps{
+	width:900px;
+	height:325px;
+	font-size:18px;	
+	margin:80px auto 40px;
+	padding-bottom:80px;		
+	}
+footer{
+	width:100%;
+	height:250px;
+	background-image:url(../images/bgfooter.png);	
+	}
+#container_footer{
+	width:960px;
+	height:100%;
+	margin:0px auto;		
+	}
+.isi_footer{
+	width:300px;
+	height:200px;	
+	float:left;
+	margin: 0px 10px 0px 10px;	
+	padding:40px 0px 0px 0px;
+	font-family:'Playfair Display', serif;
+	font-size:14px;
+	line-height:18px;
+		color:#FFF;	
+	}
+#copyright{
+	margin:110px 0px 20px 0px;
+	}
+.isi_footer ul {
+	margin: 0px 110px;
+	
+	}
+a:link, a:visited{
+		color:#FFF;
+		text-decoration:none;
+		cursor:auto;
+		
+	}
+a:link:active, a:visited:active{
+	color:#FC3;
+	}
